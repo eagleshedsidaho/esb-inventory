@@ -1,0 +1,161 @@
+name: Nightly inventory scrape
+
+on:
+  # ---------------------------------------------------------------------------
+  # NIGHTLY SCHEDULE IS DISABLED until the Old Hickory dealer agreement is
+  # checked. To enable, uncomment the three lines below and push to main.
+  #
+  # GitHub cron runs in UTC, so there's one trigger per daylight-saving season;
+  # the `gate` job lets only the one that lands on 06:00 America/Denver through.
+  # ---------------------------------------------------------------------------
+  # schedule:
+  #   - cron: "0 12 * * *" # 06:00 MDT (summer, UTC-6)
+  #   - cron: "0 13 * * *" # 06:00 MST (winter, UTC-7)
+  workflow_dispatch: # "Run workflow" button in the Actions tab
+    inputs:
+      override_safety_rail:
+        description: "Publish even if the shed count changed by more than 50% / 2x (check Old Hickory's page by hand first)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write # commit inventory.json + images back to main
+
+concurrency:
+  group: inventory-scrape
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - id: check
+        name: Run only the trigger that matches 06:00 Denver time
+        env:
+          EVENT: ${{ github.event_name }}
+          CRON: ${{ github.event.schedule }}
+        run: |
+          # Decide by which cron fired (not the clock), so a late-starting run still counts.
+          offset=$(TZ=America/Denver date +%z)
+          run=true
+          if [ "$EVENT" = "schedule" ]; then
+            if [ "$CRON" = "0 12 * * *" ] && [ "$offset" != "-0600" ]; then run=false; fi
+            if [ "$CRON" = "0 13 * * *" ] && [ "$offset" != "-0700" ]; then run=false; fi
+          fi
+          echo "Denver UTC offset $offset, trigger '${CRON:-manual}', run=$run"
+          echo "run=$run" >> "$GITHUB_OUTPUT"
+
+  scrape:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Never publish from code that doesn't pass its own checks.
+      - name: Lint (ruff)
+        run: ruff check .
+      - name: Format check (black)
+        run: black --check .
+      - name: Tests (pytest)
+        run: pytest
+
+      - name: Scrape Old Hickory
+        id: scrape
+        env:
+          OVERRIDE: ${{ inputs.override_safety_rail && '--override-safety-rail' || '' }}
+        run: |
+          set +e
+          python -m scraper.run --diff-out scrape_diff.json $OVERRIDE
+          code=$?
+          set -e
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          if [ "$code" -eq 0 ]; then
+            echo "content_changed=$(jq -r '.content_changed' scrape_diff.json)" >> "$GITHUB_OUTPUT"
+            echo "notify=$(jq -r '(.added + .removed + .price_changed | length) > 0' scrape_diff.json)" >> "$GITHUB_OUTPUT"
+            echo "summary=$(jq -r '"\(.added|length) added, \(.removed|length) removed, \(.price_changed|length) price changes"' scrape_diff.json)" >> "$GITHUB_OUTPUT"
+          fi
+
+      # --- failure paths: each fails the workflow so GitHub sends a notification ---
+
+      - name: Save safety-rail report
+        if: steps.scrape.outputs.exit_code == '3'
+        uses: actions/upload-artifact@v4
+        with:
+          name: last-scrape-warning
+          path: docs/last_scrape_warning.json
+
+      - name: Fail - safety rail tripped
+        if: steps.scrape.outputs.exit_code == '3'
+        run: |
+          reason=$(jq -r '.reason' docs/last_scrape_warning.json)
+          echo "::error title=Safety rail tripped::$reason. inventory.json was NOT updated. See the last-scrape-warning artifact."
+          {
+            echo "## Safety rail tripped"
+            echo
+            echo "**$reason** — inventory.json was left unchanged."
+            echo
+            echo '```json'
+            cat docs/last_scrape_warning.json
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit 1
+
+      - name: Fail - scrape could not run
+        if: steps.scrape.outputs.exit_code != '0' && steps.scrape.outputs.exit_code != '3'
+        run: |
+          echo "::error title=Scrape failed::scraper.run exited with code ${{ steps.scrape.outputs.exit_code }} (2 = robots.txt disallowed or page unreachable). See the 'Scrape Old Hickory' step log."
+          exit 1
+
+      # --- success path ---
+
+      - name: Rebuild widget
+        if: steps.scrape.outputs.content_changed == 'true'
+        run: python -m scraper.build_widget
+
+      - name: Commit inventory changes to main
+        if: steps.scrape.outputs.content_changed == 'true'
+        env:
+          SUMMARY: ${{ steps.scrape.outputs.summary }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/inventory.json docs/widget.html
+          git add -A docs/images
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          git commit -m "Inventory update: $SUMMARY"
+          git push
+
+      - name: Email change summary
+        if: steps.scrape.outputs.notify == 'true'
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+        run: python -m notifications.send_summary scrape_diff.json
+
+      - name: Job summary
+        if: steps.scrape.outputs.exit_code == '0'
+        run: |
+          {
+            echo "## Inventory scrape"
+            echo
+            echo "- Changes: ${{ steps.scrape.outputs.summary }}"
+            echo "- Published: ${{ steps.scrape.outputs.content_changed }}"
+            echo "- Email sent: ${{ steps.scrape.outputs.notify }}"
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sheds In Stock | Eagle Sheds &amp; Buildings</title>
+    <!-- Lets CSS hide the no-JS fallback before render.js runs. -->
+    <script>document.documentElement.classList.add("js");</script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="esb" id="esb-inventory" data-src="./inventory.json">
+      <div class="esb-filters" id="esb-filters" hidden></div>
+      <p class="esb-status" id="esb-status" aria-live="polite">Loading sheds in stock…</p>
+      <ul class="esb-grid" id="esb-grid" aria-label="Sheds in stock"></ul>
+      <div class="esb-fallback" id="esb-fallback">
+        <p id="esb-fallback-message">Our live inventory list isn't available right now.</p>
+        <a class="esb-button" href="https://oldhickorybuildings.com/locations/eagle-idaho/"
+           target="_blank" rel="noopener">View current inventory at oldhickorybuildings.com</a>
+      </div>
+      <p class="esb-updated" id="esb-updated"></p>
+    </main>
+    <script src="render.js"></script>
+  </body>
+</html>

@@ -1,0 +1,393 @@
+{
+  "source_url": "https://oldhickorybuildings.com/locations/eagle-idaho/",
+  "generated_at": "2026-10-26T13:40:41+00:00",
+  "count": 12,
+  "sheds": [
+    {
+      "inventory_id": "01tjw00000j6kkwia3",
+      "style": "Barn",
+      "width_ft": 8,
+      "length_ft": 12,
+      "siding_color": "Pewter Cast",
+      "roof_type": "Metal",
+      "roof_color": "Black",
+      "cash_price_usd": 3140.75,
+      "rto_36mo_usd": 145.41,
+      "rto_60mo_usd": 116.32,
+      "rto_84mo_usd": null,
+      "oh_detail_url": "https://oldhickorybuildings.com/product/01tjw00000j6kkwia3/",
+      "oh_image_urls": [
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000J6KKWIA3/featured/front_1782416604610_17824165928246804722992995783483.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000J6KKWIA3/gallery/back_1782416615609_17824166125065141438627098799045.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000J6KKWIA3/gallery/inside_1782416670884_17824166665054028290353421485416.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000J6KKWIA3/gallery/interior_1782416626514_17824166232427069167717644785573.jpg"
+      ],
+      "image_files": [
+        "images/01tjw00000j6kkwia3_0.jpg",
+        "images/01tjw00000j6kkwia3_1.jpg",
+        "images/01tjw00000j6kkwia3_2.jpg",
+        "images/01tjw00000j6kkwia3_3.jpg"
+      ],
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "inventory_id": "01tjw00000itlkoian",
+      "style": "Lofted Barn",
+      "width_ft": 10,
+      "length_ft": 20,
+      "siding_color": "Smoky Blue",
+      "roof_type": "Metal",
+      "roof_color": "Black",
+      "cash_price_usd": 7480.0,
+      "rto_36mo_usd": 346.3,
+      "rto_60mo_usd": 277.04,
+      "rto_84mo_usd": null,
+      "oh_detail_url": "https://oldhickorybuildings.com/product/01tjw00000itlkoian/",
+      "oh_image_urls": [
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000ItLKoIAN/featured/front_1780098279856_1780098258444978430908707515457.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000ItLKoIAN/gallery/back_1780098299512_17800982901827782978327181847672.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000ItLKoIAN/gallery/inside_1780098782169_17800987671588661653205243077326.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000ItLKoIAN/gallery/interior_1780098701736_17800986902615399008615380814480.jpg"
+      ],
+      "image_files": [
+        "images/01tjw00000itlkoian_0.jpg",
+        "images/01tjw00000itlkoian_1.jpg",
+        "images/01tjw00000itlkoian_2.jpg",
+        "images/01tjw00000itlkoian_3.jpg"
+      ],
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "inventory_id": "01tjw00000ixpoeia3",
+      "style": "Lofted Barn",
+      "width_ft": 10,
+      "length_ft": 16,
+      "siding_color": "Peppercorn",
+      "roof_type": "Metal",
+      "roof_color": "Charcoal",
+      "cash_price_usd": 5746.0,
+      "rto_36mo_usd": 266.02,
+      "rto_60mo_usd": 212.81,
+      "rto_84mo_usd": null,
+      "oh_detail_url": "https://oldhickorybuildings.com/product/01tjw00000ixpoeia3/",
+      "oh_image_urls": [
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000IxPOEIA3/featured/front_1781020258825_17810202501788170149817393382510.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000IxPOEIA3/gallery/back_1781020281134_17810202665806159687660732320488.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000IxPOEIA3/gallery/inside_1781020554647_17810205464952707094869922437904.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000IxPOEIA3/gallery/interior_1781020419991_17810204103982668301004636324535.jpg"
+      ],
+      "image_files": [
+        "images/01tjw00000ixpoeia3_0.jpg",
+        "images/01tjw00000ixpoeia3_1.jpg",
+        "images/01tjw00000ixpoeia3_2.jpg",
+        "images/01tjw00000ixpoeia3_3.jpg"
+      ],
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "inventory_id": "01tjw00000inoieiap",
+      "style": "Chicken Coop",
+      "width_ft": 6,
+      "length_ft": 8,
+      "siding_color": "Rustic Red",
+      "roof_type": "Metal",
+      "roof_color": "Silver",
+      "cash_price_usd": 3332.0,
+      "rto_36mo_usd": 154.26,
+      "rto_60mo_usd": 123.41,
+      "rto_84mo_usd": null,
+      "oh_detail_url": "https://oldhickorybuildings.com/product/01tjw00000inoieiap/",
+      "oh_image_urls": [
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/featured/front_1776898952634_17768989397263760378970456818549.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/gallery/1778818950628.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/gallery/1778818951933.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/gallery/1778818968022.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/gallery/1778818969373.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/gallery/1778818982139.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/gallery/back_1776898968823_17768989624225475797249376623792.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/gallery/inside_1776899114741_17768991080206524494528381841278.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/gallery/interior_1776898997986_17768989852685552822757237618257.jpg"
+      ],
+      "image_files": [
+        "images/01tjw00000inoieiap_0.jpg",
+        "images/01tjw00000inoieiap_1.jpg",
+        "images/01tjw00000inoieiap_2.jpg",
+        "images/01tjw00000inoieiap_3.jpg",
+        "images/01tjw00000inoieiap_4.jpg",
+        "images/01tjw00000inoieiap_5.jpg",
+        "images/01tjw00000inoieiap_6.jpg",
+        "images/01tjw00000inoieiap_7.jpg",
+        "images/01tjw00000inoieiap_8.jpg"
+      ],
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "inventory_id": "01tjw00000hn7l7iaj",
+      "style": "Animal Shelter",
+      "width_ft": 10,
+      "length_ft": 16,
+      "siding_color": "Hardware",
+      "roof_type": "Metal",
+      "roof_color": "Black",
+      "cash_price_usd": 5185.0,
+      "rto_36mo_usd": 240.05,
+      "rto_60mo_usd": 192.04,
+      "rto_84mo_usd": null,
+      "oh_detail_url": "https://oldhickorybuildings.com/product/01tjw00000hn7l7iaj/",
+      "oh_image_urls": [
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000Hn7L7IAJ/featured/front_1774284420756_17742844027878941690554025113040.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000Hn7L7IAJ/gallery/back_1774284438317_17742844323891660901061404765278.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000Hn7L7IAJ/gallery/inside_1774284540977_17742845067735915273200233514224.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000Hn7L7IAJ/gallery/interior_1774284459339_17742844516274122263998899367022.jpg"
+      ],
+      "image_files": [
+        "images/01tjw00000hn7l7iaj_0.jpg",
+        "images/01tjw00000hn7l7iaj_1.jpg",
+        "images/01tjw00000hn7l7iaj_2.jpg",
+        "images/01tjw00000hn7l7iaj_3.jpg"
+      ],
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "inventory_id": "01tjw00000hyopoiab",
+      "style": "Lofted Barn",
+      "width_ft": 8,
+      "length_ft": 12,
+      "siding_color": "Gauntlet Gray",
+      "roof_type": "Metal",
+      "roof_color": "Black",
+      "cash_price_usd": 4258.5,
+      "rto_36mo_usd": 197.15,
+      "rto_60mo_usd": 157.72,
+      "rto_84mo_usd": null,
+      "oh_detail_url": "https://oldhickorybuildings.com/product/01tjw00000hyopoiab/",
+      "oh_image_urls": [
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000HyopoIAB/featured/front_1774900142395_1774900135472543058755278119794.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000HyopoIAB/gallery/1775760260371.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000HyopoIAB/gallery/1775760261662.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000HyopoIAB/gallery/1775760286143.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000HyopoIAB/gallery/1775760287509.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000HyopoIAB/gallery/back_1774900166179_17749001578525197740074483937021.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000HyopoIAB/gallery/inside_1774900232046_17749002250472818294961414238433.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000HyopoIAB/gallery/interior_1774900193352_17749001862422640620287674392816.jpg"
+      ],
+      "image_files": [
+        "images/01tjw00000hyopoiab_0.jpg",
+        "images/01tjw00000hyopoiab_1.jpg",
+        "images/01tjw00000hyopoiab_2.jpg",
+        "images/01tjw00000hyopoiab_3.jpg",
+        "images/01tjw00000hyopoiab_4.jpg",
+        "images/01tjw00000hyopoiab_5.jpg",
+        "images/01tjw00000hyopoiab_6.jpg",
+        "images/01tjw00000hyopoiab_7.jpg"
+      ],
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "inventory_id": "01tjw00000gfhwhiat",
+      "style": "Lofted Barn",
+      "width_ft": 10,
+      "length_ft": 20,
+      "siding_color": "Rosemary Green",
+      "roof_type": "Metal",
+      "roof_color": "Rustic Red",
+      "cash_price_usd": 8079.25,
+      "rto_36mo_usd": 374.04,
+      "rto_60mo_usd": 299.23,
+      "rto_84mo_usd": null,
+      "oh_detail_url": "https://oldhickorybuildings.com/product/01tjw00000gfhwhiat/",
+      "oh_image_urls": [
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GFhwHIAT/featured/front_1772576455464_17725764460681162684790448869570.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GFhwHIAT/gallery/1775760142408.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GFhwHIAT/gallery/1775760143809.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GFhwHIAT/gallery/1775760158603.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GFhwHIAT/gallery/1775760159904.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GFhwHIAT/gallery/1775760173244.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GFhwHIAT/gallery/1775760174548.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GFhwHIAT/gallery/back_1772576474888_17725764667414412934813698800935.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GFhwHIAT/gallery/inside_1772576556169_17725765419236465368285103779899.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GFhwHIAT/gallery/interior_1772576501633_17725764961561755006401439716624.jpg"
+      ],
+      "image_files": [
+        "images/01tjw00000gfhwhiat_0.jpg",
+        "images/01tjw00000gfhwhiat_1.jpg",
+        "images/01tjw00000gfhwhiat_2.jpg",
+        "images/01tjw00000gfhwhiat_3.jpg",
+        "images/01tjw00000gfhwhiat_4.jpg",
+        "images/01tjw00000gfhwhiat_5.jpg",
+        "images/01tjw00000gfhwhiat_6.jpg",
+        "images/01tjw00000gfhwhiat_7.jpg",
+        "images/01tjw00000gfhwhiat_8.jpg",
+        "images/01tjw00000gfhwhiat_9.jpg"
+      ],
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "inventory_id": "01tjw00000gbr6wiav",
+      "style": "Lofted Barn",
+      "width_ft": 10,
+      "length_ft": 12,
+      "siding_color": "Eaglet Beige",
+      "roof_type": "Metal",
+      "roof_color": "Burnished Slate",
+      "cash_price_usd": 5104.0,
+      "rto_36mo_usd": 236.3,
+      "rto_60mo_usd": 189.04,
+      "rto_84mo_usd": null,
+      "oh_detail_url": "https://oldhickorybuildings.com/product/01tjw00000gbr6wiav/",
+      "oh_image_urls": [
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GbR6WIAV/featured/front_1765928418880_17659284126368732919363794392092.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GbR6WIAV/gallery/1773422473574.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GbR6WIAV/gallery/1773422475019.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GbR6WIAV/gallery/1773422503976.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GbR6WIAV/gallery/1773422505286.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GbR6WIAV/gallery/back_1765928441665_17659284295891751245673123425990.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GbR6WIAV/gallery/inside_1765928573309_1765928566811360182859970730410.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000GbR6WIAV/gallery/interior_1765928464893_17659284533994608317940468656617.jpg"
+      ],
+      "image_files": [
+        "images/01tjw00000gbr6wiav_0.jpg",
+        "images/01tjw00000gbr6wiav_1.jpg",
+        "images/01tjw00000gbr6wiav_2.jpg",
+        "images/01tjw00000gbr6wiav_3.jpg",
+        "images/01tjw00000gbr6wiav_4.jpg",
+        "images/01tjw00000gbr6wiav_5.jpg",
+        "images/01tjw00000gbr6wiav_6.jpg",
+        "images/01tjw00000gbr6wiav_7.jpg"
+      ],
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "inventory_id": "01tpp00000d8xp8yan",
+      "style": "Utility",
+      "width_ft": 10,
+      "length_ft": 12,
+      "siding_color": "Barn White",
+      "roof_type": "Metal",
+      "roof_color": "Rustic Red",
+      "cash_price_usd": 4056.0,
+      "rto_36mo_usd": 187.78,
+      "rto_60mo_usd": 150.22,
+      "rto_84mo_usd": null,
+      "oh_detail_url": "https://oldhickorybuildings.com/product/01tpp00000d8xp8yan/",
+      "oh_image_urls": [
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP00000D8XP8YAN/featured/front_1760048269108_image.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP00000D8XP8YAN/gallery/back_1760048292190_image.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP00000D8XP8YAN/gallery/inside_1760048345721_image.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP00000D8XP8YAN/gallery/interior_1760048323668_image.jpg"
+      ],
+      "image_files": [
+        "images/01tpp00000d8xp8yan_0.jpg",
+        "images/01tpp00000d8xp8yan_1.jpg",
+        "images/01tpp00000d8xp8yan_2.jpg",
+        "images/01tpp00000d8xp8yan_3.jpg"
+      ],
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "inventory_id": "01tpp00000cmiafyap",
+      "style": "Cabana",
+      "width_ft": 10,
+      "length_ft": 16,
+      "siding_color": "Stained",
+      "roof_type": "Metal",
+      "roof_color": "Burnished Slate",
+      "cash_price_usd": 6076.0,
+      "rto_36mo_usd": 281.3,
+      "rto_60mo_usd": 225.04,
+      "rto_84mo_usd": null,
+      "oh_detail_url": "https://oldhickorybuildings.com/product/01tpp00000cmiafyap/",
+      "oh_image_urls": [
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP00000CMIAfYAP/featured/front_1755645093180_17556450743431818774188167735134.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP00000CMIAfYAP/gallery/1757959044015.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP00000CMIAfYAP/gallery/1757959045305.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP00000CMIAfYAP/gallery/1757959069682.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP00000CMIAfYAP/gallery/1757959071182.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP00000CMIAfYAP/gallery/back_1755645106161_17556451008332215603529919359417.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP00000CMIAfYAP/gallery/inside_1755645181318_17556451672645605104233529326383.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP00000CMIAfYAP/gallery/interior_1755645122961_17556451146407361823410648655472.jpg"
+      ],
+      "image_files": [
+        "images/01tpp00000cmiafyap_0.jpg",
+        "images/01tpp00000cmiafyap_1.jpg",
+        "images/01tpp00000cmiafyap_2.jpg",
+        "images/01tpp00000cmiafyap_3.jpg",
+        "images/01tpp00000cmiafyap_4.jpg",
+        "images/01tpp00000cmiafyap_5.jpg",
+        "images/01tpp00000cmiafyap_6.jpg",
+        "images/01tpp00000cmiafyap_7.jpg"
+      ],
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "inventory_id": "01tpp000009uayiyay",
+      "style": "Lofted Barn",
+      "width_ft": 10,
+      "length_ft": 20,
+      "siding_color": "Crewel Tan",
+      "roof_type": "Metal",
+      "roof_color": "Black",
+      "cash_price_usd": 7772.0,
+      "rto_36mo_usd": 359.81,
+      "rto_60mo_usd": 287.85,
+      "rto_84mo_usd": null,
+      "oh_detail_url": "https://oldhickorybuildings.com/product/01tpp000009uayiyay/",
+      "oh_image_urls": [
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP000009uaYIYAY/featured/1745980689029.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP000009uaYIYAY/gallery/1745980687714.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP000009uaYIYAY/gallery/1745980690280.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP000009uaYIYAY/gallery/1745980691555.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP000009uaYIYAY/gallery/1745980692733.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP000009uaYIYAY/gallery/1745980693956.jpg"
+      ],
+      "image_files": [
+        "images/01tpp000009uayiyay_0.jpg",
+        "images/01tpp000009uayiyay_1.jpg",
+        "images/01tpp000009uayiyay_2.jpg",
+        "images/01tpp000009uayiyay_3.jpg",
+        "images/01tpp000009uayiyay_4.jpg",
+        "images/01tpp000009uayiyay_5.jpg"
+      ],
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "inventory_id": "01tpp00000c6a3vyar",
+      "style": "Lofted Barn",
+      "width_ft": 12,
+      "length_ft": 24,
+      "siding_color": "Rosemary Green",
+      "roof_type": "Metal",
+      "roof_color": "Black",
+      "cash_price_usd": 10469.6,
+      "rto_36mo_usd": 484.7,
+      "rto_60mo_usd": 387.76,
+      "rto_84mo_usd": null,
+      "oh_detail_url": "https://oldhickorybuildings.com/product/01tpp00000c6a3vyar/",
+      "oh_image_urls": [
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP00000C6a3VYAR/featured/front_1754692793516_image.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP00000C6a3VYAR/gallery/back_1754692815692_image.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP00000C6a3VYAR/gallery/inside_1754692934902_image.jpg",
+        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tPP00000C6a3VYAR/gallery/interior_1754692910829_image.jpg"
+      ],
+      "image_files": [
+        "images/01tpp00000c6a3vyar_0.jpg",
+        "images/01tpp00000c6a3vyar_1.jpg",
+        "images/01tpp00000c6a3vyar_2.jpg",
+        "images/01tpp00000c6a3vyar_3.jpg"
+      ],
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    }
+  ]
+}

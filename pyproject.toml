@@ -1,0 +1,21 @@
+[project]
+name = "esb-inventory-mirror"
+version = "1.0.0"
+description = "Static mirror of the Old Hickory Buildings Eagle, ID dealer inventory for Eagle Sheds & Buildings"
+requires-python = ">=3.11"
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra"

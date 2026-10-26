@@ -1,0 +1,4 @@
+# Normalize line endings so Windows checkouts and the Linux Actions bot agree.
+* text=auto eol=lf
+*.jpg binary
+*.png binary
