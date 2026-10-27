@@ -8,9 +8,9 @@ on:
   # GitHub cron runs in UTC, so there's one trigger per daylight-saving season;
   # the `gate` job lets only the one that lands on 06:00 America/Denver through.
   # ---------------------------------------------------------------------------
-  # schedule:
-  #   - cron: "0 12 * * *" # 06:00 MDT (summer, UTC-6)
-  #   - cron: "0 13 * * *" # 06:00 MST (winter, UTC-7)
+  schedule:
+    - cron: "0 12 * * *" # 06:00 MDT (summer, UTC-6)
+    - cron: "0 13 * * *" # 06:00 MST (winter, UTC-7)
   workflow_dispatch: # "Run workflow" button in the Actions tab
     inputs:
       override_safety_rail:
