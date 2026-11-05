@@ -1,7 +1,7 @@
 {
   "source_url": "https://oldhickorybuildings.com/locations/eagle-idaho/",
-  "generated_at": "2026-10-26T13:40:41+00:00",
-  "count": 12,
+  "generated_at": "2026-11-05T14:14:13+00:00",
+  "count": 11,
   "sheds": [
     {
       "inventory_id": "01tjw00000j6kkwia3",
@@ -29,7 +29,7 @@
         "images/01tjw00000j6kkwia3_3.jpg"
       ],
       "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-05"
     },
     {
       "inventory_id": "01tjw00000itlkoian",
@@ -57,7 +57,7 @@
         "images/01tjw00000itlkoian_3.jpg"
       ],
       "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-05"
     },
     {
       "inventory_id": "01tjw00000ixpoeia3",
@@ -85,45 +85,7 @@
         "images/01tjw00000ixpoeia3_3.jpg"
       ],
       "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26"
-    },
-    {
-      "inventory_id": "01tjw00000inoieiap",
-      "style": "Chicken Coop",
-      "width_ft": 6,
-      "length_ft": 8,
-      "siding_color": "Rustic Red",
-      "roof_type": "Metal",
-      "roof_color": "Silver",
-      "cash_price_usd": 3332.0,
-      "rto_36mo_usd": 154.26,
-      "rto_60mo_usd": 123.41,
-      "rto_84mo_usd": null,
-      "oh_detail_url": "https://oldhickorybuildings.com/product/01tjw00000inoieiap/",
-      "oh_image_urls": [
-        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/featured/front_1776898952634_17768989397263760378970456818549.jpg",
-        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/gallery/1778818950628.jpg",
-        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/gallery/1778818951933.jpg",
-        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/gallery/1778818968022.jpg",
-        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/gallery/1778818969373.jpg",
-        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/gallery/1778818982139.jpg",
-        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/gallery/back_1776898968823_17768989624225475797249376623792.jpg",
-        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/gallery/inside_1776899114741_17768991080206524494528381841278.jpg",
-        "https://ohbprodinv.s3.us-east-2.amazonaws.com/01tJw00000INOIeIAP/gallery/interior_1776898997986_17768989852685552822757237618257.jpg"
-      ],
-      "image_files": [
-        "images/01tjw00000inoieiap_0.jpg",
-        "images/01tjw00000inoieiap_1.jpg",
-        "images/01tjw00000inoieiap_2.jpg",
-        "images/01tjw00000inoieiap_3.jpg",
-        "images/01tjw00000inoieiap_4.jpg",
-        "images/01tjw00000inoieiap_5.jpg",
-        "images/01tjw00000inoieiap_6.jpg",
-        "images/01tjw00000inoieiap_7.jpg",
-        "images/01tjw00000inoieiap_8.jpg"
-      ],
-      "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-05"
     },
     {
       "inventory_id": "01tjw00000hn7l7iaj",
@@ -151,7 +113,7 @@
         "images/01tjw00000hn7l7iaj_3.jpg"
       ],
       "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-05"
     },
     {
       "inventory_id": "01tjw00000hyopoiab",
@@ -187,7 +149,7 @@
         "images/01tjw00000hyopoiab_7.jpg"
       ],
       "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-05"
     },
     {
       "inventory_id": "01tjw00000gfhwhiat",
@@ -227,7 +189,7 @@
         "images/01tjw00000gfhwhiat_9.jpg"
       ],
       "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-05"
     },
     {
       "inventory_id": "01tjw00000gbr6wiav",
@@ -263,7 +225,7 @@
         "images/01tjw00000gbr6wiav_7.jpg"
       ],
       "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-05"
     },
     {
       "inventory_id": "01tpp00000d8xp8yan",
@@ -291,7 +253,7 @@
         "images/01tpp00000d8xp8yan_3.jpg"
       ],
       "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-05"
     },
     {
       "inventory_id": "01tpp00000cmiafyap",
@@ -327,7 +289,7 @@
         "images/01tpp00000cmiafyap_7.jpg"
       ],
       "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-05"
     },
     {
       "inventory_id": "01tpp000009uayiyay",
@@ -359,7 +321,7 @@
         "images/01tpp000009uayiyay_5.jpg"
       ],
       "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-05"
     },
     {
       "inventory_id": "01tpp00000c6a3vyar",
@@ -387,7 +349,7 @@
         "images/01tpp00000c6a3vyar_3.jpg"
       ],
       "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-05"
     }
   ]
 }
